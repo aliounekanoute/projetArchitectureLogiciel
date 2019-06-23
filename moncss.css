@@ -1,0 +1,226 @@
+body{
+  background-color:#191919 !important;
+  color:navy !important;
+   font-family: times new roman !important;
+   font-size:12px !important;
+ }
+.lettrine:first-letter
+{
+  float : left  !important;
+  font-size : 180% !important;
+  font-weight : bold !important
+}
+
+
+p{
+  font-size:12pt !important;
+}
+h1{
+  font-size:20px !important;
+  text-transform:uppercase !important;
+  text-align:center !important;
+  color:black !important;
+}
+h2
+{
+  font-size:18px !important;
+  color:black !important;
+  text-transform:uppercase !important;
+  text-align:left !important;
+}
+h3
+{
+  font-variant:small-caps !important ;
+  font-size:16px !important;
+  color:black !important;
+  text-indent:10px !important;
+}
+h4
+{
+  font-size:14px !important;
+  font-variant:small-caps !important;
+  color:black !important;
+  text-indent:20px !important;
+}
+a:link
+{
+  text-decoration : none  !important;
+}
+a:visited
+{
+  text-decoration : line-through  !important;
+}
+a:hover
+{
+  font-size : 120% !important
+  font-weight : bold  !important;
+}
+a:active
+{
+  text-decoration: overline underline !important;
+}
+#site
+{
+  width:90% !important;
+   height:80% !important;
+    margin:auto !important;
+    font-family: serif !important;
+    font-size:14px  !important;
+    color:black !important
+  }
+#haut
+{
+  background-color:white !important;
+  text-align:center !important;
+  width:100% !important;
+  height:15% !important;
+  color:black !important;
+  border:1px solid black !important;
+  margin-bottom:10px !important;
+  float:right !important;
+  padding-top:20px !important;
+}
+#gauche
+{
+  background-color:white !important;
+  width:68% !important;
+  float:left !important;
+  height:80% !important;
+  color:black !important;
+  margin-right:5px !important;
+  border:1px solid black !important;
+  margin-bottom:20px !important;
+  margin-top:10px !important
+}
+#droite
+{
+  background-color:white !important;
+  width:27% !important;
+  height:80% !important;
+  float:right !important;
+  color:black !important;
+  border:1px solid black !important;
+  margin-bottom:10px !important;
+  overflow:scroll !important;
+  padding:auto !important;
+  margin-top: 10px !important;
+}
+#pied
+{
+  background-color:white !important;
+  width:100% !important;
+  height:15% !important;
+  color:black !important;
+  border:1px solid black !important;
+  float:right !important;
+  margin-bottom:10px !important;
+}
+.p {
+  font-size: 12px !important;
+  color: grey !important;
+}
+
+.modal {
+ display: none; /* Hidden by default */
+ position: fixed; /* Stay in place */
+ z-index: 1; /* Sit on top */
+ left: 0;
+ top: 0;
+ width: 100%; /* Full width */
+ height: 100%; /* Full height */
+ overflow: scroll; /* Enable scroll if needed */
+ background-color: rgb(0,0,0); /* Fallback color */
+ background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+ /*padding-top: 60px;*/
+}
+
+.modal-content {
+  overflow: scroll;
+ /*background-color: #fefefe;*/
+ margin: 5px auto; /* 15% from the top and centered */
+ margin-bottom: 20px;
+ border: 1px solid #3498db;
+ width: 80%; /* Could be more or less, depending on screen size */
+ /*width: 600px;
+ padding: 20px;*/
+ max-width: calc(100vw - 50px);
+ max-height: calc(100vh - 20px);
+ position: absolute;
+ top: 50%;
+ /*left: 50%;*/
+ /*transform: translate(-50%,-50%);*/
+ background: #191919;
+ text-align: center;
+ border-radius: 10px;
+}
+
+.modal-content h2{
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-align: center !important;
+}
+
+.modal-content button{
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 10px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.modal-content button:hover{
+  background: #2ecc71;
+}
+
+.modal-content .cancelbtn{
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #ff1a1a;
+  padding: 14px 10px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.modal-content .cancelbtn:hover{
+  background: #ff1a1a;
+}
+
+/* The Close Button */
+.close {
+ /* Position it in the top right corner outside of the modal */
+ position: absolute;
+ right: 25px;
+ top: 0;
+ color: #000;
+ font-size: 35px;
+ font-weight: bold;
+}
+
+.container
+{
+  color: grey !important;
+}
+
+.div h2
+{
+  text-align: center !important;
+}
+
+.div a
+{
+  text-align: left;
+}
